@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(178, 225, 252);
+    font-family: Arial, Helvetica, sans-serif;
+  
+    }
+header {
+    background-color: rgba(221, 118, 166, 0.911);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+table{
+    background-color: rgb(178, 255, 252);
+    text-align: center;
+}
+form{
+    text-align: justify;
+}
+table, th, td {
+    border: 1px solid black
+}
+.table-pastel
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.tabla-accesorios
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.form
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.pie
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;   
+
+}
+.soporte
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

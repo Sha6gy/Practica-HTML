@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake-in</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="inicio"><img src="logo.PNG" width="200"/>Recuerdos hechos pastel</header>
+    <div class="table-pastel">
+    <table id="pasteles"style="width: 500px;">
+            <thead>
+            <tr>
+                <th>Pastel</th>
+                <th>Precio</th>
+            </tr>
+            </thead> 
+            <tbody>
+                
+                <tr>
+                    <td>Dacquoise</td>
+                    <td>250$</td> 
+                </tr>
+                <tr>
+                    <td> Angel food</td>
+                    <td> 260$</td>
+                </tr>
+                <tr>
+                    <td>Chiffon</td>
+                    <td>150$</td> 
+                </tr>
+                <tr>
+                    <td>Pastel de Zanahoria</td>
+                    <td>180$</td> 
+                </tr>
+                <tr>
+                    <td>Devil’s food </td>
+                    <td>270$</td> 
+                </tr>
+                <tr>
+                    <td>Pay de queso</td>
+                    <td>200$</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <br>
+        <div class="tabla-accesorios">
+        <table id="accesorios"style="width: 500px;">
+            <thead>
+            <tr>
+                <th>Adornos</th>
+                <th>Precio</th>
+            </tr>
+            </thead> 
+            <tbody>
+                
+                <tr>
+                    <td>Acrilico personalizado<img src="Acrilico.PNG" width="100" /></td>
+                    <td>380$</td> 
+                </tr>
+                <tr>
+                    <td> Perlas comestibles<img src="perlas.PNG" width="100"/></td>
+                    <td> 170$</td>
+                </tr>
+                <tr>
+                    <td>Flores de fondant<img src="flores.PNG" width="100"/></td>
+                    <td>108$</td> 
+                </tr>
+                <tr>
+                    <td>Pintura comestible<img src="Dorada.PNG" width="100"></td>
+                    <td>148$</td> 
+                </tr>
+                <tr>
+                    <td> Arreglo floral <img src="floral.PNG" width="100"></td>
+                    <td>270$</td> 
+                </tr>
+                <tr>
+                    <td>Ballena comestible<img src="ballena.PNG" width="100" /></td>
+                    <td>658$</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <form id="ordenar" action="/formulario" method="post">
+            <h1>Ingrese los datos para su pedido</h1>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" apellido="apellido" placeholder="Apellido"/>
+            <br>
+            <label for="correo">Correo</label>
+            <input type="email" id="email" email="email" placeholder="Correo"/>
+            <br>
+            <label for="telefono">telefono</label>
+            <input type="tel" id="telefono" email="telefono" placeholder="telefono"/>
+            <br>
+            <br>
+            <label>Seleccione el sabor o sabores</label>
+            <br>
+            <br>
+            <label><input type="checkbox" id="cbox1" pastel1="Dacquoise">Dacquoise</label>
+            <br>
+            <label><input type="checkbox" id="cbox2" pastel2="Angel food">Angel food</label>
+            <br>
+            <label><input type="checkbox" id="cbox3" pastel3="Chiffon">Chiffon</label>
+            <br>
+            <label><input type="checkbox" id="cbox4" pastel4="Pastel de Zanahoria">Pastel de Zanahoria</label>
+            <br>
+            <label><input type="checkbox" id="cbox5" pastel5="Devil’s foo">Devil’s food</label>
+            <br>
+            <label><input type="checkbox" id="cbox6" pastel6="Pay de queso">Pay de queso</label>
+            <br>
+            <br>
+            <label>Seleccione el o los adornos</label>
+            <br>
+            <br>
+            <label><input type="checkbox" id="cbox1" adornos1="Acrilico personalizado">Acrilico personalizado</label>
+            <br>
+            <label><input type="checkbox" id="cbox1" adornos2="Perlas comestibles">Perlas comestibles</label>
+            <br>
+            <label><input type="checkbox" id="cbox1" adornos3="Flores de fondant">Flores de fondant</label>
+            <br>
+            <label><input type="checkbox" id="cbox1" adorno4="Pintura comestible">Pintura comestible</label>
+            <br>
+            <label><input type="checkbox" id="cbox1" adorno5="Arreglo floral">Arreglo floral</label>
+            <br>
+            <label><input type="checkbox" id="cbox1" adorno6="Ballena comestible">Ballena comestible</label>
+            <br>
+            <br>
+            <label for="comentario">Comentarios</label>
+            <br>
+            <textarea cols="50" rows="10" id="comentario" placeholder="Descripcion General del paste" name="comentario"></textarea>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+    <footer>
+        <nav class="pie">
+        <a href="#inicio">Ir al comienzo &nbsp;</a>
+        <a href="#pasteles">Ir a pasteles &nbsp;</a>
+        <a href="#accesorios">Ir a accesorios &nbsp;</a>
+        <a href="#ordenar">Ir a ordenar &nbsp;</a>
+        <br>
+        <a href="mailto:bake-in@hotmail.com">Contactame aqui</a>
+        <br>
+        <p>Copyrigth 2022</p>
+        </nav>
+    </footer>
+
+</body>
+</html>
